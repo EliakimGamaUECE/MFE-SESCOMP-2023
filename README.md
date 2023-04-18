@@ -77,3 +77,22 @@ No root.component das aplicações (Fazer o import do “import SimpleTabs from 
 Mudar o return “SimpleTabs()”
 
 STARTAR TODOS OS APPS NOVAMENTE
+
+
+=======================================================
+Código para o root.components.tsx
+```
+import SimpleTabs from "./app";
+
+export default function Root(props) {
+  return SimpleTabs();
+}
+```
+
+======================================================
+Ativação de rota permanente
+
+```
+() => true
+
+```
